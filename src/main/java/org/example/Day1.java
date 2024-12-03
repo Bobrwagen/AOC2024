@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Day1 {
     public static String PUZZLE;
-    String listStr =
+    private final String listStr =
 """
 80414   72092
 17250   26414

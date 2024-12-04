@@ -10,5 +10,9 @@ public class Main {
         day2.solvePartOne();
         day2.solvePartTwo();
 
+        Day3 day3 = new Day3(null);
+        day3.solvePartOne();
+        day3.solvePartTwo();
+
     }
 }

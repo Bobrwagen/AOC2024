@@ -38,15 +38,7 @@ public class Day3 {
     }
 
     public void solvePartTwo() {
-        /*
-        all_dos = instructions.split('do()')
-all_dos = [cmds.split("don't()")[0] for cmds in all_dos]
-all_valid_dos = [re.findall(r"mul\((\d+),(\d+)\)",cmds) for cmds in all_dos]
-res = 0
-for muls in all_valid_dos:
-    res += sum([int(num1) * int(num2) for (num1,num2) in muls])
-print(f'The sum of valid enabled multiplications is {res}')
-         */
+
         String[] all_dos = PUZZLE.split("do\\(\\)");
         ArrayList<String> instructions = new ArrayList<>();
         for (String s : all_dos) {

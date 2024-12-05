@@ -14,5 +14,9 @@ public class Main {
         day3.solvePartOne();
         day3.solvePartTwo();
 
+        Day4 day4 = new Day4(null);
+        day4.solvePartOne();
+        day4.solvePartTwo();
+
     }
 }
